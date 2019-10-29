@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "declaration": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "target": "es2017",
+    // module
+    "module": "es2015",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    // js
+    "alwaysStrict": true,
+    "sourceMap": true,
+    "jsx": "react",
+    // no fallthrough
+    "noFallthroughCasesInSwitch": true,
+    // no unused
+    "noUnusedLocals": true,
+    // no unreachable
+    "allowUnreachableCode": false,
+    // strict type check
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true
+  }
+}

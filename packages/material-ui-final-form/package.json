@@ -1,11 +1,11 @@
 {
   "name": "@typeghost/material-ui-final-form",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "Material UI Adapters for final form",
   "author": "Typeghost team",
-  "homepage": "",
+  "homepage": "https://github.com/typeghost/reactx",
   "license": "MIT",
-  "main": "lib/material-ui-final-form.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,5 +15,18 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.5.1",
+    "react": "^16.11.0"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-final-form": "^6.3.0",
+    "typescript": "^3.6.4"
   }
 }

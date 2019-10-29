@@ -1,7 +1,18 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "clean": "lerna exec -- 'rimraf lib dist' && lerna clean",
+    "bootstrap": "lerna bootstrap",
+    "build:lib": "lerna exec --ignore @typeghost/*-demo -- 'rimraf lib dist && tsc -p .'",
+    "build:demo:material-ui-final-form": "lerna exec --scope @typeghost/material-ui-final-form-demo -- parcel src/index.html",
+    "publish:lib": "lerna clean && lerna bootstrap && lerna publish"
+  },
   "devDependencies": {
-    "lerna": "^3.18.3"
+    "lerna": "^3.18.3",
+    "rimraf": "^3.0.0"
   }
 }

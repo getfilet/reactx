@@ -1,0 +1,21 @@
+{
+  "name": "@typeghost/material-ui-final-form-demo",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Typeghost team",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.5.1",
+    "@typeghost/material-ui-final-form": "^0.0.0",
+    "final-form": "^4.18.5",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.6.4"
+  }
+}
