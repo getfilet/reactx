@@ -9,7 +9,7 @@
     "bootstrap": "lerna bootstrap",
     "build:lib": "lerna exec --ignore @typeghost/*-demo -- 'rimraf lib dist && tsc -p .'",
     "build:demo:material-ui-final-form": "lerna exec --scope @typeghost/material-ui-final-form-demo -- parcel src/index.html",
-    "publish:lib": "lerna clean && lerna bootstrap && lerna build:lib && lerna publish"
+    "publish:lib": "yarn build:lib && lerna publish"
   },
   "devDependencies": {
     "lerna": "^3.18.3",
