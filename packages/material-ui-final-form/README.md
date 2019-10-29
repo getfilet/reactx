@@ -1,11 +1,7 @@
-# `material-ui-final-form`
+# `@typeghoast/material-ui-final-form`
 
-> TODO: description
-
-## Usage
+## Install
 
 ```
-const materialUiFinalForm = require('material-ui-final-form');
-
-// TODO: DEMONSTRATE API
+npm i --save @typeghost/material-ui-final-form
 ```
