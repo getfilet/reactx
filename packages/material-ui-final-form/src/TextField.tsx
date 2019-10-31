@@ -22,7 +22,7 @@ export const TextField = <FieldValue,>({ meta, input, children, TextFieldProps }
             onFocus={input.onFocus}
             value={input.value}
             {...TextFieldProps}
-            helperText={hasError ? (`${meta.error} ${helperText}`) : helperText}
+            helperText={hasError ? (<>{meta.error} {helperText}</>) : helperText}
         >
             {children}
         </MuiTextField>
