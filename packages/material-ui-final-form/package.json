@@ -5,8 +5,9 @@
   "author": "Typeghost team",
   "homepage": "https://github.com/typeghost/reactx",
   "license": "MIT",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/cjs/index.js",
+  "types": "lib/cjs/index.d.ts",
+  "module": "lib/es/index.js",
   "files": [
     "lib"
   ],

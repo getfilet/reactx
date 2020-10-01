@@ -7,7 +7,10 @@
   "scripts": {
     "clean": "lerna exec -- 'rimraf lib dist' && lerna clean",
     "bootstrap": "lerna bootstrap",
-    "build:lib": "lerna exec --ignore @typeghost/*-demo -- 'rimraf lib dist && tsc -p .'",
+    "prebuild:lib": "lerna exec -- 'rimraf lib dist'",
+    "build:lib": "npm run -s build:lib:es && npm run -s build:lib:cjs",
+    "build:lib:es": "lerna exec --ignore @typeghost/*-demo -- 'tsc -p . --module es2015 --outDir lib/es'",
+    "build:lib:cjs": "lerna exec --ignore @typeghost/*-demo -- 'tsc -p . --module commonjs --outDir lib/cjs'",
     "build:demo:material-ui-final-form": "lerna exec --scope @typeghost/material-ui-final-form-demo -- parcel src/index.html",
     "publish:lib": "yarn build:lib && lerna publish"
   },
