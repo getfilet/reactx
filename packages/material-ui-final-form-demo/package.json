@@ -1,7 +1,7 @@
 {
   "name": "@typeghost/material-ui-final-form-demo",
   "private": true,
-  "version": "0.0.7",
+  "version": "0.0.8",
   "author": "Typeghost team",
   "license": "MIT",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
-    "@typeghost/material-ui-final-form": "^0.0.7",
+    "@typeghost/material-ui-final-form": "^0.0.8",
     "final-form": "^4.20.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
