@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "lerna": "^3.18.3",
+    "npm-check-updates": "^9.0.3",
     "rimraf": "^3.0.0"
   }
 }
