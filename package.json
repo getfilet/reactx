@@ -12,8 +12,8 @@
     "publish:lib": "yarn build:lib && lerna publish"
   },
   "devDependencies": {
-    "lerna": "^3.18.3",
+    "lerna": "^3.22.1",
     "npm-check-updates": "^9.0.3",
-    "rimraf": "^3.0.0"
+    "rimraf": "^3.0.2"
   }
 }
