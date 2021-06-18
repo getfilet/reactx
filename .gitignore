@@ -1,3 +1,5 @@
+.parcel-cache
+yarn-error.log
 lerna-debug.log
 node_modules
 lib
